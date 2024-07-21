@@ -82,7 +82,7 @@ function Navbar() {
                                 type="text"
                             />
                             <button
-                                className='bg-green-600 text-white font-semibold ml-5 p-2 rounded-lg'
+                                className='bg-green-600 text-white font-semibold ml-3 p-2 rounded-lg'
                                 type='submit'
                             >
                                 Search
@@ -104,7 +104,7 @@ function Navbar() {
                         type="text"
                     />
                     <button
-                        className='bg-green-600 text-white font-semibold ml-5 p-2 rounded-lg'
+                        className='bg-green-600 text-white font-semibold ml-2 mt-2 p-2 rounded-lg'
                         type='submit'
                     >
                         Search

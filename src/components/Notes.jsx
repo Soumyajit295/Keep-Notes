@@ -56,7 +56,7 @@ function Notes() {
                                 {note.description.length > 200 ? note.description.substring(0, 200) + '...' : note.description}
                             </p>
                             {note.time ? <p className='text-gray-500 mt-3 text-sm'>{note.time}</p> : <p className='text-white'>No time available</p>}
-                            <div className='space-x-3 mt-2 text-xl'>
+                            <div className='space-x-5 mt-2 text-xl'>
                                     <i
                                         onClick={() => deleteNote(note.id)}
                                         className="fa-solid fa-trash text-red-500 cursor-pointer"
